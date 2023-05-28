@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuesto App</title>
+    <link rel="stylesheet" href="Assets/css/presupuesto.css">
+</head>
+<body>
+    <h1>App de Presupuesto</h1>
+
+    <div class="seccion-entrada">
+      <label for="presupuesto">Ingrese su presupuesto:</label>
+      <input type="number" id="entrada-presupuesto">
+    </div>
+  
+    <div class="seccion-entrada">
+      <label for="gastoNombre">Ingrese el nombre de su gasto:</label>
+      <input type="text" id="entrada-nombre-gasto">
+    </div>
+  
+    <div class="seccion-entrada">
+      <label for="gastoCantidad">Ingrese la cantidad del gasto:</label>
+      <input type="number" id="entrada-cantidad-gasto">
+    </div>
+  
+    <button id="boton-calcular">Calcular</button>
+  
+    <div id="resumen">
+      <h2>Resumen</h2>
+  
+      <div id="presupuesto">
+        <h3>Nuestro presupuesto:</h3>
+        <span id="presupuesto-valor">$0</span>
+      </div>
+  
+      <div id="gasto">
+        <h3>El monto de nuestro gasto:</h3>
+        <span id="gasto-valor">$0</span>
+      </div>
+  
+      <div id="saldo">
+        <h3>El saldo:</h3>
+        <span id="saldo-valor">$0</span>
+      </div>
+    </div>
+  
+    <div id="historial">
+      <h2>Historial de Gastos</h2>
+      <ul id="lista-gastos"></ul>
+    </div>
+
+
+
+
+    <script src="Assets/js/presupuesto.js"></script>
+    
+</body>
+</html>

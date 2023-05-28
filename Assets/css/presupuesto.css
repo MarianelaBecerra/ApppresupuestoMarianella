@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .seccion-entrada {
+    margin-bottom: 10px;
+  }
+  
+  .seccion-entrada label {
+    display: block;
+  }
+  
+  #boton-calcular {
+    display: block;
+    margin: 20px auto;
+  }
+  
+  #resumen, #historial {
+    margin-top: 20px;
+  }
+  
+  #resumen h2, #historial h2 {
+    margin-top: 0;
+  }
+  
+  #resumen div, #historial ul {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  #resumen div h3, #historial ul li {
+    margin: 0;
+  }
+  
+  #resumen div span, #historial ul li {
+    font-weight: bold;
+  }
